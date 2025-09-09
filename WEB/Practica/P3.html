@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediWeb</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/6850/6850675.png">
+    <link rel="stylesheet" href="p3.css">
+    <script src="functionality.js"></script>
+</head>
+<body>
+    <header>
+        <h1>MediWeb</h1>
+    </header>
+
+    <main>
+        <article class="izquierda">
+        <div class="errorMessages" id="errorMessages" aria-live="assertive" role="alert" ></div>
+        <div class="notificacion" id ="notificacionFechas"  aria-live=" assertive" role="alert"></div>
+            <div class="Login">
+                <h2 class="titulo1">Código de paciente</h2>
+                <input type="text" id="bLogin" class = "entradaPaciente" placeholder="123-12-1234" required aria-label= " Introduzca código de Paciente a buscar con formato 3 dígitos guión 2 dígitos guión 4dígitos ">
+            </div>
+
+            <form class="optsFechas"><div class="fechas">    
+                <h2 class="titulo1" tabindex="0" aria-label="Seleccionar una fecha de inicio y una fecha de fin para el intervalo de fechas">Seleccionar fechas</h2>
+              
+                <div class="formFechas">
+                    <label for="fechaInicio" class="tituloFechas"  aria-label="Seleccionar fecha inicio de periodo con formato día (con 2 dígitos)/mes (2 dígitos)/año (4 dígitos)">Fecha<br>Inicio</label >
+                    <input type="date" id="fechaInicio" name="date" class="fecha" required aria-required="true" rol="status">
+                </div>
+
+                <div class="formFechas">
+                    <label for="fechaFin" class="tituloFechas" aria-label="Seleccionar fecha final de periodo con formato día (con 2 dígitos)/mes (2 dígitos)/año (4 dígitos)">Fecha<br>Fin</label>
+                    <input type="date" id="fechaFin" name="date" class="fecha" required aria-required="true" rol="status" >
+                </div>
+
+                <button type="button" class="boton1" id="confirmar" aria-label="Confirmar paciente e intervalo de fechas seleccionados">Confirmar</button>
+            </div>
+
+            <div class="presets">
+                <h2 class="titulo1" tabindex="0" aria-label="Predefinidos de fechas">Predefinidos</h2>
+                <div class="boton30Dias">
+                    <label for="today" class="tituloPreset">Hoy</label>
+                    <button type="button" class="boton1" id="today" aria-label="Establecer fecha inicio y fin a fecha actual">Establecer</button>
+                </div>
+              
+                <div class="boton30Dias">
+                    <label for="7dBut" class="tituloPreset">Última semana</label>
+                    <button type="button" id="7dBut" class="boton1" aria-label="Establecer fecha inicio a 7 días antes de hoy y fecha fin a fecha actual">Establecer</button>
+                </div>
+              
+                <div class="boton30Dias">
+                    <label for="30dBut" class="tituloPreset">Último mes</label>
+                    <button type="button" id="30dBut" class="boton1" aria-label="Establecer fecha inicio a 30 días antes de hoy y fecha fin a fecha actual">Establecer</button>
+                </div>
+              
+                <div class="boton30Dias">
+                    <label for="365dBut" class="tituloPreset">Último año</label>
+                    <button type="button" id="365dBut" class="boton1" aria-label="Establecer fecha inicio a 1 año antes de hoy y fecha fin a fecha actual">Establecer</button>
+                </div>
+              
+                <div class="botonNDias">
+                    <input type="text" id="ndias" placeholder="Últimos N días" class="NInput" required aria-label="Introducir número de días que se desea abarcar para mostrar los medicamentos y tomas correspondientes a esos últimos N días" aria-errormessage="errorMessages">
+                    <button type="button" class="boton1" id="NBut" aria-label="Establecer fecha inicio a los n días anteriores a hoy indicados como entrada y fecha fin a fecha actual">Establecer</button>
+                </div>
+                  
+
+            </div></form>
+        </article>
+
+        <article class="Listas"> 
+            <div class="listdiv" ><h2 class = "titulo1"  id="idLista1" tabindex="0" aria-label="Medicación activa del paciente indicado dentro del intervalo de fechas especificado">Medicación activa</h2>
+            <ul class="listbox" id="medicacionesActivas">
+            </ul></div>
+          
+            <div class="listdiv"><h2 class = "titulo1" tabindex="0" aria-label="Tomas realizadas del paciente indicado dentro del intervalo de fechas especificado">Tomas realizadas</h2>
+            <ul class="listbox" id="tomasActivas">
+            </ul></div>
+        </article>
+    </main>
+    <footer>
+      <p> &copy; 2024 MediWeb. Todos los derechos reservados.</p>
+    </footer>
+</body>
+

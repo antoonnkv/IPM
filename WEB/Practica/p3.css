@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+*{margin: 0;padding: 0;}
+html,body{height: 100%;}
+body {
+  background: #cfdef3; 
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: linear-gradient(90deg, #434D93 0%, #5563B5 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px 10px 20px 10px;
+  padding: 10px;
+}
+
+footer {
+  background-color: #434D93;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 90%;
+  margin: 20px auto 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1;
+}
+
+.boton1 {
+  background-color: #434D93;
+  color: white;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 9px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.izquierda {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: visible;
+}
+
+.Login, .optsFechas {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin: 5px 15px;
+  padding: 0px 15px 15px 15px;
+}
+
+.boton30Dias:hover, .botonNDias:hover {
+  background: #e0e0e0;
+  border-radius: 12px;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+}
+
+.formFechas:hover {
+  background: #e0e0e0;
+  border-radius: 12px;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+}
+
+.entradaPaciente {
+  width: 85%;
+  padding: 8px;
+  margin: auto;
+  display: block;
+  border: 1px 
+  solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 12px;
+  transition: border-color 0.2s;
+  text-align: center;
+}
+
+.entradaPaciente:focus, .fecha:focus, .NInput:focus {
+  outline: none;
+  border-color: #434D93;
+  box-shadow: 0 0 0 3px rgba(67, 77, 147, 0.1);
+}
+
+.tituloFechas {
+  display: inline-block;
+  font-weight: 500;
+  color: #1e293b;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.fechas .boton1 {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.formFechas {
+  display: flex;
+  margin: 10px 9px;
+  justify-content: space-between;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.errorMessages {
+    display: none;
+    background-color: #ffcccc;
+    color: #cc0000;
+    padding: 10px;
+    margin: 10px; 
+    border-radius: 12px; 
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    align-items: center ;
+}
+
+
+.notificacion {
+  display: none;
+    background-color: #72e059;
+    color: #044813;
+    padding: 10px;
+    margin: 10px; 
+    border-radius: 12px; 
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    align-items: center ;
+}
+
+.fecha {
+  width: 60%;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 12px;
+  transition: border-color 0.2s;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.boton30Dias, .botonNDias {
+  display: flex;
+  margin: 10px 7px;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.boton30Dias .boton1, .botonNDias .boton1{
+  margin-right: 10px;
+}
+
+.boton30Dias .boton1, .botonNDias .boton1{
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+.tituloPreset {
+  display: inline-block;
+  font-weight: 500;
+  color: #1e293b;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.NInput {
+  border: 1px solid #e2e8f0;
+  transition: border-color 0.2s;
+  border-radius: 8px;
+  font-size: 15px;
+  width: 118px;
+  margin-left: 10px;
+}
+
+.Listas {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin: 5px 15px;
+  height: fit-content;
+  padding: 0px 15px 15px 15px;
+}
+
+.listdiv {
+  flex: 1;
+}
+
+.listbox {
+  display: flex;
+  flex-direction: column;
+  list-style-position: inside;
+  padding: 6px 3px;
+  background:  #f0f6ff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  overflow-y: scroll;
+  max-height: 38vh;
+  height: auto;
+}
+
+.listbox li {
+  list-style: none;
+  background: #ecf2fc;
+  border-radius: 6px;
+  margin: 5px 10px;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+.titulo1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #434D93;
+  margin: 15px 0px 10px 0px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.listbox li:hover {
+    background: #d6dde7;
+    transition: all 0.3s ease;
+}
+
+.boton1:hover {
+  background-color: #2b3161;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 690px) {
+
+  header h1 {
+    font-size: 70px;
+  }
+  
+  main {
+    flex-direction: row;
+  }
+  
+  .izquierda {
+    margin-left: 40px;
+  }
+  
+  .listbox {
+    max-height: 230px;
+  }
+  
+  .Listas {
+    flex: 1.5;
+    margin-right: 40px;
+    height: fit-content;
+  }
+  
+  .boton30Dias .boton1, .botonNDias .boton1, .boton1{
+    padding: 7px 10px;
+    font-size: 15px;
+  }
+  
+}
+
+@media (min-width: 1300px) {
+
+  header h1 {
+    font-size: 70px;
+  }
+  
+  main {
+    flex-direction: row;
+  }
+  
+  .izquierda{
+    flex: 1;
+    margin-left: 80px;
+  }
+  
+  .titulo1 {
+    font-size: 25px;
+  }
+  
+  .Listas {
+    flex: 4;
+    flex-direction: row;
+    margin-right: 80px;
+  }
+  
+  .listdiv {
+    margin: 10px;
+  }
+  
+  .listbox {
+    max-height: 523px;
+  }
+  
+  
+  .boton30Dias .boton1, .botonNDias .boton1, .boton1{
+    padding: 7px 10px;
+    font-size: 15px;
+  }
+}
