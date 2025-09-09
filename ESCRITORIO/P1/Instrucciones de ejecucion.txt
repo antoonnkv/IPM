@@ -1,0 +1,10 @@
+-------------- IMPORTANTE ----------------------
+
+
+- Tener encendida la base de datos
+- Ejecutar main.py
+
+-------------- A TENER EN CUENTA ---------------
+
+- Se debe introducir en el buscador un paciente por código
+- A la hora de añadir un medicamento, este debe existir en el fichero medications.json de la carpeta Sources

@@ -1,0 +1,366 @@
+# English translations for PRACTICAIPMT package.
+# Copyright (C) 2024 THE PRACTICAIPMT'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PRACTICAIPMT package.
+# Sofía <sofia@sofia-lenovo>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PRACTICAIPMT 2V1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-22 19:01+0200\n"
+"PO-Revision-Date: 2024-10-22 19:02+0200\n"
+"Last-Translator: Sofía <sofia@sofia-lenovo>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: presenter.py:106
+msgid ""
+"No se ha introducido un código.\n"
+"Introduzca el código de paciente con el siguiente formato:\n"
+"XXX-XX-XXXX"
+msgstr ""
+"No code has been entered.\n"
+"Enter the patient code in the following format:\n"
+"XXX-XX-XXXX"
+#: presenter.py:109
+msgid ""
+"No se ha introducido un código válido.\n"
+"Inténtelo de nuevo asegurándose que sigue el formato correcto:\n"
+"XXX-XX-XXXX"
+msgstr ""
+"No valid code has been entered.\n"
+"Try again making sure you follow the correct format:\n"
+"XXX-XX-XXXX"
+#: presenter.py:121
+msgid ""
+"No se ha encontrado un paciente con ese código.\n"
+"Asegúrese de estar introduciendo correctamente el código."
+msgstr ""
+"A patient with that code has not been found.\n"
+"Make sure you are entering the code correctly."
+#: presenter.py:123 presenter.py:139 presenter.py:235 presenter.py:330
+#: presenter.py:357 presenter.py:378 presenter.py:401 presenter.py:428
+#: presenter.py:446 presenter.py:513 presenter.py:583
+msgid "Error de conexión: No se pudo establecer comunicación con el servidor."
+msgstr "Connection error: Could not establish communication with the server."
+
+#: presenter.py:150 presenter.py:245 presenter.py:459 presenter.py:521
+msgid "Uno o más parámetros están vacios:\n"
+msgstr "One or more parameters are empty:\n"
+
+#: presenter.py:151 presenter.py:247 presenter.py:458 presenter.py:522
+msgid ""
+"Uno o más parámetros no son válidos, asegúrese de estar usando el formato "
+"correcto:\n"
+msgstr ""
+"One or more parameters are invalid, make sure you are using the format"
+"correct:\n"
+
+#: presenter.py:165
+msgid "Nombre del medicamento.\n"
+msgstr "Name of the medicine.\n"
+
+#: presenter.py:168 presenter.py:185 presenter.py:190 presenter.py:284
+#: presenter.py:289
+msgid "Fecha de inicio (DD/MM/AA).\n"
+msgstr "Start date (YYYY-MM-DD).\n"
+
+#: presenter.py:176
+msgid ""
+"Dosis\n"
+" (Ej: 2.3)."
+msgstr ""
+"Dose\n"
+"(Ex: 2.3)."
+
+#: presenter.py:179
+msgid "Duracion (Ej: 15).\n"
+msgstr "Duration (Ex: 15).\n"
+
+#: presenter.py:195 presenter.py:198 presenter.py:294 presenter.py:297
+msgid "Dosis (Ej: 2.3).\n"
+msgstr "Dose (Ex: 2.3).\n"
+
+#: presenter.py:201 presenter.py:204
+msgid "Duración (Ej: 15).\n"
+msgstr "Duration (Ex: 15).\n"
+
+#: presenter.py:215
+msgid ""
+"Error inesperado al leer el fichero con los medicamentos.\n"
+"Asegúrese de tener el fichero medications.json en el directorio Source para "
+"poder añadir un medicamento válido."
+msgstr ""
+"Unexpected error when reading the file with medications.\n"
+"Make sure you have the medications.json file in the Source directory for "
+"be able to add a valid medication."
+
+#: presenter.py:231
+msgid ""
+"Error inesperado al añadir.\n"
+"Es posible que el medicamento haya sido eliminado."
+msgstr ""
+"Unexpected error adding.\n"
+"It is possible that the medication has been removed."
+
+#: presenter.py:239
+msgid ""
+"Medicamento no encontrado.\n"
+"Asegúrese que el medicamento es un medicamento existente."
+msgstr ""
+"Medication not found.\n"
+"Make sure the medication is an existing medication."
+#: presenter.py:268
+msgid "Fecha de inicio (DD/MM/AA)\n"
+msgstr "Start date (MM/DD/YYYY)\n"
+
+#: presenter.py:276
+msgid "Dosis (Ej: 2.3)."
+msgstr "Dose (Ex: 2.3)."
+
+#: presenter.py:279
+msgid "Duracion (Ej: 15)"
+msgstr "Duration (Ex: 15)"
+
+#: presenter.py:300 presenter.py:303
+msgid "Duración (Ej: 15)."
+msgstr "Duration (Ex: 15)."
+
+#: presenter.py:326
+msgid ""
+"Error inesperado al actualizar.\n"
+"Es posible que el medicamento haya sido eliminado."
+msgstr ""
+"Unexpected error updating.\n"
+"It is possible that the medication has been removed."
+
+#: presenter.py:336
+msgid "Seleccione antes un medicamento para poder modificar sus datos."
+msgstr "Select a medication first to be able to modify its data."
+
+#: presenter.py:354
+msgid ""
+"Error inesperado al  eliminar.\n"
+"Es posible que el medicamento haya sido eliminado."
+msgstr ""
+"Unexpected error while deleting.\n"
+"It is possible that the medication has been removed."
+
+#: presenter.py:375
+msgid ""
+"Error inesperado al mostrar los datos.\n"
+"Es posible que el medicamento haya sido eliminado."
+msgstr ""
+"Unexpected error displaying data.\n"
+"It is possible that the medication has been removed."
+
+#: presenter.py:397
+msgid ""
+"Error inesperado al acceder a las posologías.\n"
+"Es posible que el medicamento haya sido eliminado."
+msgstr ""
+"Unexpected error accessing posologies.\n"
+"It is possible that the medication has been removed."
+
+#: presenter.py:424
+msgid ""
+"Error inesperado al eliminar.\n"
+"Es posible que la posología haya sido eliminada."
+msgstr ""
+"Unexpected error while deleting.\n"
+"It is possible that the posology has been removed."
+
+#: presenter.py:443
+msgid ""
+"Error inesperado al mostrar los datos.\n"
+"Es posible que la posología haya sido eliminada."
+msgstr ""
+"Unexpected error displaying data.\n"
+"It is possible that the posology has been removed."
+
+#: presenter.py:469 presenter.py:541
+msgid "Horas (Ej:8).\n"
+msgstr "Hours (Ex:8).\n"
+
+#: presenter.py:472 presenter.py:484 presenter.py:487 presenter.py:556
+#: presenter.py:559
+msgid "Minutos (Ej: 30)."
+msgstr "Minutes (Ex: 30)."
+
+#: presenter.py:477 presenter.py:480 presenter.py:549 presenter.py:552
+msgid "Horas (Ej: 8).\n"
+msgstr "Hours (Ex: 8).\n"
+
+#: presenter.py:509
+msgid ""
+"Error inesperado al añadir.\n"
+"Es posible que la posología haya sido eliminada."
+msgstr ""
+"Unexpected error adding.\n"
+"The posology may have been removed."
+
+#: presenter.py:544
+msgid "Minutos (Ej:30)."
+msgstr "Minutes (Ex:30)."
+
+#: presenter.py:580
+msgid ""
+"Error inesperado al actualizar.\n"
+"Es posible que la posología haya sido eliminada."
+msgstr ""
+"Unexpected error updating.\n"
+"The posology may have been removed."
+
+#: presenter.py:587
+msgid "Seleccione antes una posología para poder modificar sus datos"
+msgstr "Select a posology first to be able to modify your data"
+
+#: view.py:18
+msgid "Cargando"
+msgstr "Loading"
+
+#: view.py:35
+msgid "Cargando, por favor espere..."
+msgstr "Loading, please wait..."
+
+#: view.py:43
+msgid "AVISO"
+msgstr "WARNING"
+
+#: view.py:58
+msgid ""
+"Estas a punto de eliminar un elemento.\n"
+"ESTA ACCION NO SE PUEDE DESHACER\n"
+"¿Estas seguro que desea realizar la accion?"
+msgstr ""
+"You are about to delete an item.\n"
+"THIS ACTION CANNOT BE UNDORED\n"
+"Are you sure you want to perform the action?"
+
+#: view.py:63 view.py:133 view.py:165
+msgid "Cerrar"
+msgstr "Close"
+
+#: view.py:66 view.py:380 view.py:553
+msgid "Confirmar"
+msgstr "Confirm"
+
+#: view.py:80
+msgid "ERROR CONEXIÓN"
+msgstr "CONNECTION ERROR"
+
+#: view.py:100
+msgid "Recargar"
+msgstr "Reload"
+
+#: view.py:128
+msgid "Elemento actualizado correctamente."
+msgstr "Item updated successfully."
+
+#: view.py:191
+msgid "Codigo del paciente (XXX-XX-XXXX)"
+msgstr "Patient code (XXX-XX-XXXX)"
+
+#: view.py:234
+msgid "AÑADIR MEDICAMENTO"
+msgstr "ADD MEDICAMENTO"
+
+#: view.py:237 view.py:438
+msgid "VOLVER"
+msgstr "RETURN"
+
+#: view.py:240 view.py:441
+msgid "CONFIRMAR"
+msgstr "CONFIRM"
+
+#: view.py:252
+msgid "VER POSOLOGÍAS"
+msgstr "SEE POSOLOGIES"
+
+#: view.py:257
+msgid "Seleccione antes un medicamento para poder ver sus posologias"
+msgstr "Select a medication first to see its posologies"
+
+#: view.py:273 view.py:392
+msgid "Ej: 8.3"
+msgstr "EX: 8.3"
+
+#: view.py:276 view.py:396
+msgid "DD/MM/AA"
+msgstr "MM/DD/YYYY"
+
+#: view.py:279 view.py:400
+msgid "Ej: 15"
+msgstr "EX: 15"
+
+#: view.py:281
+msgid "Nombre Medicamento"
+msgstr "Medication name"
+
+#: view.py:291 view.py:397
+msgid "Fecha de Inicio"
+msgstr "Start date"
+
+#: view.py:295 view.py:393
+msgid "Dosis"
+msgstr "Dose"
+
+#: view.py:299 view.py:401
+msgid "Duración"
+msgstr "Duration"
+
+#: view.py:317 view.py:494
+msgid "ELIMINAR"
+msgstr "DELETE"
+
+#: view.py:373
+msgid "Nombre del medicamento..."
+msgstr "Medication name..."
+
+#: view.py:376 view.py:549
+msgid "Volver"
+msgstr "Return"
+
+#: view.py:432
+msgid "POSOLOGIA"
+msgstr "POSOLOGy"
+
+#: view.py:435
+msgid "AÑADIR POSOLOGÍA"
+msgstr "ADD POSOLOGY"
+
+#: view.py:465 view.py:566
+msgid "Ej: 8"
+msgstr "Ex: 8"
+
+#: view.py:468 view.py:570
+msgid "Ej: 30"
+msgstr "Ex: 30"
+
+#: view.py:475 view.py:567
+msgid "Hora"
+msgstr "Hour"
+
+#: view.py:476 view.py:571
+msgid "Minuto"
+msgstr "Minute"
+
+#: view.py:498
+msgid "Posología Nº: "
+msgstr "Posology Nº: "
+
+#: view.py:498
+msgid "Horas: "
+msgstr "Hours: "
+
+#: view.py:498
+msgid "Minutos:"
+msgstr "Minutes:"
+
+#: view.py:545
+msgid "AÑADIR POSOLOGIA"
+msgstr "ADD POSOLOGY"
